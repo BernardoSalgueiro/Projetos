@@ -1,0 +1,154 @@
+/* Formatações Gerais */
+
+body {
+	font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* Formatações navbar e links menu */
+
+.navbar-light .navbar-nav .nav-link {
+	font-weight: bold;
+	color: #000 !important;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #00754a !important;
+}
+
+.navbar {
+	border-bottom: 1px solid #dadada;
+}
+
+.button-nav-1 {
+	border: 1px solid #000;
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+	border-radius: 30px;
+	padding: 3px 12px;
+	font-size: 14px;
+	margin: 0px 12px;
+}
+
+.button-nav-1:hover {
+	cursor: pointer;
+	background: #e6e6e6;
+	transition: background 0.3s;
+}
+
+.button-nav-2 {
+	background: #000;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 30px;
+	padding: 3px 12px;
+	font-size: 14px;
+	border: 1px solid #000;
+}
+
+.button-nav-2:hover {
+	cursor: pointer;
+	background: #494949;
+	transition: background 0.3s;
+}
+
+/* Formatação containers de conteúdo */
+
+.conteudo {
+	background: #cfe6b5;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.col-md-6 {
+	padding: 0;
+}
+
+.col-md-6 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.textos {
+	display: block;
+	text-align: center;
+	padding: 15px;
+}
+
+.h2-caixas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1d3c34;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+.p-caixas {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #1d3c34;
+	font-size: 22px;
+	text-align: center;
+}
+
+.button-caixas {
+	display: inline-flex;
+	color: #1d3c34;
+	border: 1px solid #1d3c34;
+	background: #cfe6b5;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 20px;
+	padding: 4px 15px;
+}
+
+.button-caixas:hover {
+	background: #bdd5a8;
+	transition: background 0.5s;
+	text-decoration: none;
+	color: #1d3c34;
+}
+
+/* Rodapé */
+
+footer {
+	margin-top: 65px;
+	padding: 20px;
+	border-top: 1px solid #dadada;
+}
+
+footer h2 {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: #000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer .navbar-nav a {
+	color: #808080;
+	font-size: 15px;
+}
+
+footer .navbar-nav a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.icones {
+	margin-top: 30px;
+}
